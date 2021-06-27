@@ -1,0 +1,10 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = michaelcarlucci
+	email = 80020693+michaelcarlucci@users.noreply.github.com
+[init]
+	defaultBranch = master
